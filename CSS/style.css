@@ -1,0 +1,311 @@
+
+
+	h1 {
+		font-family: 'Roboto', sans-serif;
+	}
+	p {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+	
+	}
+	img {
+		object-fit: cover;
+	}
+	.logo {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+		font-family: 'shrikhand', cursive;   
+		
+	}
+	form {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+		margin-bottom: 0;
+		background-color: gainsboro;
+	}
+
+	
+	.srchbar {
+		display: flex;
+		height: 50px;
+		background-color: gainsboro;
+		border: 0;
+		padding: 0%;
+		align-items: center;
+		
+	}
+
+
+
+	::placeholder {
+
+		color: black;
+		
+
+
+	}
+	input {
+		text-align: center;
+		font-size: small;
+		text-decoration: black;
+	}
+	.explorer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		background-color: whitesmoke;
+		padding-bottom: 20%;
+		align-items: center;
+		padding-top: 50px;
+	}
+
+	.explorer h1 {
+
+		margin-bottom: 0%;
+		font-weight:bolder;
+		width: 70%;
+	}
+
+	.explorer p {
+
+		margin-bottom: 30px;
+		font-size: large;
+	}
+
+
+	.btnexplorer {
+		background: linear-gradient(#FF79DA, #9356DC);
+		height: 55px;
+		border-radius: 25px;
+		width: 60%;
+		color: white;
+		border: none;
+		box-shadow: inset;
+		font-family: 'Roboto';
+		font-size:medium;
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	}
+	 .fonctions {
+
+		display: flex;
+		flex-direction: column; 
+		justify-content: center;
+		padding-left: 0%;
+		align-items: center;
+		align-content: center;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+	
+		
+    
+    }  
+
+
+	.fonctions li:hover {
+
+		background-color: #efe1ff9f;
+		
+
+
+	}
+
+
+
+	.greyicon {
+
+		color: gray;
+		font-size: large;
+	}
+	.fonctionside {
+
+		margin-top: 40px;
+		
+	}
+
+
+	.fonctionside h1 {
+
+		margin-left: 20px;
+	}
+	.fonctions li {
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+		margin-top: 20px;
+		height: 70px;
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		border-radius: 15px;
+		align-items: center;
+		background-color: whitesmoke;
+	
+	
+	}
+	.restau {
+		background-color: whitesmoke;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		margin-top: 50px;
+		padding-bottom: 60px;
+		padding-top: 30px;
+	}
+
+	.restau h1 {
+		padding-right: 210px;
+	}
+	.flexrestau {
+		width: 95%;
+		
+	}
+	.cardmain {
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+		border-radius: 20px;
+		width: 100%;
+		height: 270px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+
+	
+	.cardmain img {
+		height: 70%;
+		width: 100%;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+
+	.nolink {
+
+		color: black;
+		text-decoration: none;
+	}
+
+
+	.heart::before {
+
+		display: inline-block;
+    	text-rendering: auto;
+   	 	-webkit-font-smoothing: antialiased;
+		content: "\f004";
+		font: var(--fa-font-solid);
+		font-weight: 400;
+		position: absolute;
+    	font-size: x-large;
+		margin-left: 85%;
+		
+
+	}
+
+	.heart:hover::before {
+
+		font-weight: 900;
+        background: linear-gradient(to bottom, #a742c6 , #FF79DA 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+		
+
+		
+	}
+
+	
+	  
+
+	
+	
+	.btnnew {
+
+		background-color: #99E2D0;
+		position: absolute;
+		margin-left: 68%;
+		margin-top: 20px;
+		height: 30px;
+		color: #0ba57f;
+		font-weight: bold;
+		width: 20%;
+		border: #99E2D0;
+		
+
+	}
+
+	
+	.textrestau {
+		margin-left: 10px;
+		position: relative;
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+	}
+
+	.textrestau h3 {
+
+		margin-bottom: 0%;
+		font-family: 'Roboto', sans-serif;
+		
+	}
+
+	.textrestau p {
+
+		margin-top: 5px;
+		font-size: large;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-content: flex-end;
+        background-color: rgb(56, 56, 56);
+        color: white;
+		height: 30%;
+
+    }
+
+	footer li {
+
+		list-style: none;
+		font-family: 'Roboto';
+		margin-top: 5px;
+		
+	}
+
+    .logofooter {
+
+       font-family: 'shrikhand', cursive;   
+	   margin-bottom: 15px;
+        
+        
+    }
+
+
+   
+ 

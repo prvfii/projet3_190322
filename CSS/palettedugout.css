@@ -1,0 +1,106 @@
+
+	/* main {
+  
+		background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+		
+		
+
+	}  */
+
+	* {
+
+		box-sizing:border-box;
+	}
+	.logo h1 {
+		font-family: 'shrikhand', cursive;
+		margin-left: 60px;
+		margin-right: 75px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.logo {
+		margin-top: auto;
+	}
+	.next {
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: none;
+		font-weight: 900;
+		text-align: left;
+	}
+	.back_img {
+		height: 200px;
+		width: 100%;
+		/* position: relative; */
+		
+	}
+	.menu {
+		background-color: rgb(236, 234, 234);
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		width: 100%;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+		margin-top: -55px;
+		z-index: 1;
+		/* margin: O 1.5rem -7rem -1.5rem; */
+	}
+	.margintext {
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+	.titlemenu {
+		font-family: 'shrikhand', cursive;
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+	.menutbuttontitle {
+		border-bottom: 3px solid #99E2D0;
+		width: 10%;
+		font-weight: 300;
+		font-size: large;
+		padding-bottom: 5px;
+	}
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		width: 97%;
+		margin-bottom: 15px;
+		border-radius: 15px;
+		border: none;
+		box-shadow: 5px 1px 8px #b3aeae;
+		background-color: white;
+		max-height: 65px;
+	}
+
+
+	.buttons h2 {
+		font-size: medium;
+		margin-bottom: 3px;
+	}
+	.buttons p {
+		margin-top: 0;
+	}
+	.pricerow {
+		display: flex;
+		flex-direction: row;
+		width: 95%;
+		justify-content: space-between;
+		
+	}
+
+	.check {
+
+		background-color: #99E2D0;
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+		color: white;
+		border-radius: 15px;
+	}
+	.buttons:hover {}
