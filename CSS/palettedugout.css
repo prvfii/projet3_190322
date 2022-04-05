@@ -102,5 +102,7 @@
     	justify-content: center;
 		color: white;
 		border-radius: 15px;
+		width: 100px;
+  	  	height: 65px;
 	}
 	.buttons:hover {}
