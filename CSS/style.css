@@ -8,20 +8,25 @@
 		font-weight: 100;
 	
 	}
+
 	img {
 		object-fit: cover;
 	}
+
 	.logo {
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
-		font-family: 'shrikhand', cursive;   
-		
+
+		box-shadow: 0 0.3rem 0.4rem #b2b1b1;
 	}
+	.logo h1 {
+		font-family: 'shrikhand', cursive;
+		display: flex;
+    	justify-content: center;
+		margin-bottom: 5px;
+	}
+
 	form {
 		display: flex;
 		justify-content: center;
-		margin-top: 20px;
 		margin-bottom: 0;
 		background-color: gainsboro;
 	}
@@ -80,7 +85,7 @@
 		background: linear-gradient(#FF79DA, #9356DC);
 		height: 55px;
 		border-radius: 25px;
-		width: 60%;
+		width: 110%;
 		color: white;
 		border: none;
 		box-shadow: inset;
@@ -107,6 +112,14 @@
 	.fonctions li:hover {
 
 		background-color: #efe1ff9f;
+		
+
+
+	}
+
+	.fonctions li:hover .greyicon {
+
+		color: #9356DC;
 		
 
 
@@ -142,7 +155,6 @@
 		align-items: center;
 		background-color: whitesmoke;
 	
-	
 	}
 	.restau {
 		background-color: whitesmoke;
@@ -157,6 +169,7 @@
 
 	.restau h1 {
 		padding-right: 210px;
+		
 	}
 	.flexrestau {
 		width: 95%;
@@ -187,6 +200,7 @@
 		color: black;
 		text-decoration: none;
 	}
+	
 
 
 	.heart::before {
@@ -200,6 +214,8 @@
 		position: absolute;
     	font-size: x-large;
 		margin-left: 85%;
+		margin-top: 30px;
+		
 		
 
 	}
@@ -301,10 +317,17 @@
     .logofooter {
 
        font-family: 'shrikhand', cursive;   
-	   margin-bottom: 15px;
+	   margin-bottom: -10px;
+   	   margin-left: 50px;
         
         
     }
+
+	.nolinkfooter {
+
+		color: white;
+		text-decoration: none;
+	}
 
 
    

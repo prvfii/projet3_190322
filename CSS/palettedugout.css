@@ -18,8 +18,12 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
+
+	
+
 	.logo {
 		margin-top: auto;
+		box-shadow: none;
 	}
 	.next {
 		background-color: white;
@@ -27,8 +31,11 @@
 		flex-direction: column;
 		justify-content: center;
 		border: none;
-		font-weight: 900;
+		font-size: larger;
 		text-align: left;
+		position:absolute;
+		top: 2.5%;
+		left: 15px;
 	}
 	.back_img {
 		height: 200px;
@@ -46,10 +53,13 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 		position: relative;
-		margin-top: -55px;
+		margin-top: -33px;
 		z-index: 1;
 		/* margin: O 1.5rem -7rem -1.5rem; */
 	}
+
+	
+
 	.margintext {
 		margin-left: 10px;
 		margin-bottom: 50px;
@@ -68,15 +78,20 @@
 	}
 	.buttons {
 		display: flex;
-		flex-direction: column;
+		/* flex-direction: column; */
 		width: 97%;
 		margin-bottom: 15px;
 		border-radius: 15px;
 		border: none;
 		box-shadow: 5px 1px 8px #b3aeae;
 		background-color: white;
-		max-height: 65px;
+		height: 65px;
+		justify-content: space-between;
+		overflow: hidden;
+		
+		
 	}
+
 
 
 	.buttons h2 {
@@ -85,12 +100,21 @@
 	}
 	.buttons p {
 		margin-top: 0;
+		
+		
 	}
 	.pricerow {
 		display: flex;
 		flex-direction: row;
-		width: 95%;
 		justify-content: space-between;
+	}
+
+	.textcol {
+
+		display: flex;
+		flex-direction: column;
+		text-align: start;
+		width: 700%;
 		
 	}
 
@@ -101,8 +125,34 @@
     	align-items: center;
     	justify-content: center;
 		color: white;
-		border-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
 		width: 100px;
   	  	height: 65px;
+		position: relative;
+		left: 110px;
+		bottom: 1px;
+		font-size: large;
+		
+		
 	}
-	.buttons:hover {}
+
+	.buttons:hover .check i {
+
+		transform: rotate(360deg);
+		transition: 900ms;
+	}
+
+
+	.buttons:hover .check{
+		
+		transition: 200ms;
+		left: 7px;
+		
+		
+	}
+
+	.buttons:hover .textcol {
+
+		width: 100%;
+	}
