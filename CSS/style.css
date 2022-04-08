@@ -17,24 +17,30 @@
 	img {
 		object-fit: cover;
 	}
-
+/* 
 	.spinner {
-
-		width: 100px;
-		height: 100px;
-		position: relative;
-		animation: spinnerOne 1.2s linear 3s;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		display:  flex;
+		align-items: center;
+		justify-content: center;
+		background-color: white;
+		animation: stoploading 0.1s;
+		
 
 	}
 
 	.spinner div {
 
 		position: absolute;
-		width: 100%;
-		height: 100%;
+		width: 50px;
+		height: 50px;
 		border: 10px solid transparent;
 		border-top-color:#9356DC;
-		border-radius: 50%;
+		border-radius: 50%;	
+		animation-delay: 2.9s;
+		animation: loading 3s linear infinite;
 	}
 
 	.spinner div:nth-child(2) {
@@ -43,12 +49,84 @@
 		border-bottom-color: #9356DC;
 	}
 
-	@keyframes spinnerOne {
-		
-		0% {transform: rotate(0deg); border-width: 10px;}
-		50% { transform: rotate(180deg); border-width: 1px;}
-		100% { transform: rotate(360deg); border-width: 10px;}
+
+	@keyframes loading
+{
+    0%
+    { 
+        transform: rotate(0deg); 
+    }
+    100%
+    { 
+        transform: rotate(360deg);
+		opacity: 0;
+		visibility: hidden;
+       z-index: 1;
+	   
+    }
+}
+
+@keyframes stoploading {
+
+	100% {
+
+		display: none;
 	}
+	
+} */
+
+
+	.pagespinner {
+		background-color: white;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		position: absolute;
+		align-items: center;
+		animation: timeout 3s linear;
+	}
+
+	.circlespinner {
+
+		border: 3px solid;
+		border-top-color: #9356DC;
+		border-bottom-color: #FF79DA;
+		border-left-color: #99E2D0;
+		border-right-color: #99E2D0;
+		border-radius: 50%;
+		height: 70px;
+		width: 70px;
+		animation: loading 3s linear infinite;
+
+		
+	}
+
+	@keyframes loading {
+
+		0% {
+			transform: rotate(0deg);
+		}
+
+		100% {transform: rotate(360deg);}
+		
+	}
+
+	@keyframes timeout {
+
+		100% {
+
+			visibility: hidden;
+			opacity: 0;
+		
+		}
+		
+	}
+
+
+
+
 
 	.logo {
 
@@ -225,7 +303,7 @@
 	}
 
 	.restau h1 {
-		padding-right: 210px;
+		padding-right: 65%;
 		
 	}
 	.flexrestau {
