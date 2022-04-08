@@ -10,6 +10,7 @@
 	* {
 
 		box-sizing:border-box;
+		text-overflow: ellipsis;
 	}
 	.logo h1 {
 		font-family: 'shrikhand', cursive;
@@ -51,7 +52,7 @@
 		border-top-left-radius: 40px;
 		border-top-right-radius: 40px;
 		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-bottom: 80px;
 		position: relative;
 		margin-top: -33px;
 		z-index: 1;
@@ -79,7 +80,7 @@
 	.buttons {
 		display: flex;
 		/* flex-direction: column; */
-		width: 97%;
+		width: calc(97%);
 		margin-bottom: 15px;
 		border-radius: 15px;
 		border: none;
@@ -101,7 +102,7 @@
 	.buttons p {
 		margin-top: 0;
 		
-		
+	
 	}
 	.pricerow {
 		display: flex;
@@ -155,4 +156,27 @@
 	.buttons:hover .textcol {
 
 		width: 100%;
+	}
+
+	.centerbtn {
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.btncommander {
+
+		background: linear-gradient(#FF79DA, #9356DC);
+		height: 50px;
+		border-radius: 25px;
+		width: 50%;
+		color: white;
+		border: none;
+		box-shadow: inset;
+		font-family: 'Roboto';
+		font-size:medium;
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+		display: flex;	
+		align-items: center;
+		justify-content: center;
 	}
