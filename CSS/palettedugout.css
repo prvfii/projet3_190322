@@ -1,11 +1,4 @@
 
-	/* main {
-  
-		background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-		
-		
-
-	}  */
 
 	* {
 
@@ -89,6 +82,11 @@
 		height: 65px;
 		justify-content: space-between;
 		overflow: hidden;
+		animation: delaybutton 1s ease-out forwards;
+		opacity: 0;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		
 		
 		
 	}
@@ -104,10 +102,56 @@
 		
 	
 	}
+
+
+	@keyframes delaybutton {
+
+		0% {opacity: 0;
+		}
+
+	
+
+		100% {
+			opacity: 1;
+			transform: rotateY(20%);
+			
+		}
+
+
+		
+	}
+
+	.n1 {
+
+		animation-delay: 1s;
+		
+		
+	}
+
+	.n2 {
+
+		animation-delay: 2s;
+	
+	}
+
+	.n3 {
+
+		animation-delay: 3s;
+		
+	}
+
+	.n4 {
+
+		animation-delay: 4s;
+		
+	}
 	.pricerow {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
 	}
 
 	.textcol {
@@ -115,7 +159,10 @@
 		display: flex;
 		flex-direction: column;
 		text-align: start;
-		width: 700%;
+		width: calc(700%);
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
 		
 	}
 
@@ -133,7 +180,7 @@
 		position: relative;
 		left: 110px;
 		bottom: 1px;
-		font-size: large;
+		font-size: x-large;
 		
 		
 	}
@@ -180,3 +227,87 @@
 		align-items: center;
 		justify-content: center;
 	}
+
+
+@media screen and (min-width:992px){
+
+	.margintext {
+
+	
+		margin-bottom: 10%;
+		display: inline-block;
+    
+	}
+
+
+}
+
+@media  screen and (max-width: 1460px) and (min-width: 992px) {
+
+
+	.margintext {
+
+		margin-left: 5%;
+	}
+
+	
+	
+}
+
+
+@media  screen and (max-width: 1306px) and (min-width: 992px) {
+
+	.margintext {
+
+		margin-left: 3%;
+	}
+
+
+
+}
+
+@media  screen and (max-width: 1223px) and (min-width: 992px) {
+
+	.margintext {
+
+		margin-left: 2%;
+	}
+
+
+
+}
+
+@media  screen and (max-width: 1185px) and (min-width: 992px) {
+
+	.margintext {
+
+		margin-left: 1%;
+	}
+
+
+
+}
+
+@media  screen and (max-width: 1148px) and (min-width: 992px) {
+
+	.margintext {
+
+		margin-left: 1px;
+	}
+
+
+
+}
+
+@media  screen and (max-width: 1120px) and (min-width: 992px) {
+
+	.margintext {
+
+		flex-direction: column;
+		display: flex;
+		margin-left: 10px;
+	}
+
+
+
+}
