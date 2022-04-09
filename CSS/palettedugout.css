@@ -28,7 +28,7 @@
 		font-size: larger;
 		text-align: left;
 		position:absolute;
-		top: 2.5%;
+		top: 25px;
 		left: 15px;
 	}
 	.back_img {
@@ -89,6 +89,7 @@
 		
 		
 		
+		
 	}
 
 
@@ -96,12 +97,15 @@
 	.buttons h2 {
 		font-size: medium;
 		margin-bottom: 3px;
+		font-family: 'Roboto', sans-serif;
 	}
 	.buttons p {
 		margin-top: 0;
 		
 	
 	}
+
+	.flexrestau { width: 100%;}
 
 
 	@keyframes delaybutton {
@@ -113,7 +117,7 @@
 
 		100% {
 			opacity: 1;
-			transform: rotateY(20%);
+			transform: rotateY(180deg);
 			
 		}
 
@@ -163,6 +167,7 @@
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		overflow: hidden;
+		margin-left: 10px;
 		
 	}
 
@@ -179,7 +184,7 @@
   	  	height: 65px;
 		position: relative;
 		left: 110px;
-		bottom: 1px;
+		
 		font-size: x-large;
 		
 		
@@ -219,7 +224,6 @@
 		width: 50%;
 		color: white;
 		border: none;
-		box-shadow: inset;
 		font-family: 'Roboto';
 		font-size:medium;
 		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);

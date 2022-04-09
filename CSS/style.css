@@ -47,10 +47,9 @@
 
 		color: #9356DC;
     	font-size: 30px;
-    	letter-spacing: 10px;
-    	margin-bottom: 150px;
+    	letter-spacing: 5px;
     	animation: loaderdot 3s linear;
-    	font-family: shrikhand;
+    	font-family: 'shrikhand', cursive;
 		opacity: 0;
 	
 }
@@ -181,15 +180,20 @@
 		background: linear-gradient(#FF79DA, #9356DC);
 		height: 55px;
 		border-radius: 25px;
-		width: 100%;
+		width: 210px;
 		color: white;
 		border: none;
-		box-shadow: inset;
 		font-family: 'Roboto';
 		font-size:medium;
 		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 		padding-left: 10px;
 		padding-right: 10px;
+		cursor: pointer;
+		text-decoration: none;
+		justify-content: center;
+    	align-items: center;
+		align-content: center;
+		display: flex;
 
 	}
 	 .fonctions {
@@ -212,6 +216,7 @@
 	.fonctions li:hover {
 
 		background-color: #efe1ff9f;
+		
 		
 
 
@@ -345,11 +350,13 @@
 	.heart:hover::before {
 
 		font-weight: 900;
-        background: linear-gradient(to bottom, #a742c6 , #FF79DA 100%);
+        background: linear-gradient(to top, #a742c6 , #FF79DA 100%);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
-       -webkit-text-fill-color:transparent;
+       -webkit-text-fill-color:transparent; 
+	   transition : 3s ease-out;
+	   
 		
 
 		
@@ -369,12 +376,20 @@
 		height: 30px;
 		color: #0ba57f;
 		font-weight: bold;
+		font-size: small;
 		width: 20%;
 		border: #99E2D0;
 		z-index: 0;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Roboto', sans-serif;
+}
+
 		
 
-	}
+	
 
 	
 	.textrestau {
@@ -397,6 +412,8 @@
 		margin-top: 5px;
 		font-size: large;
 	}
+
+
 
 
 
