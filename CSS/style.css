@@ -501,18 +501,10 @@
 
 	}
 
-	.restau h1 {
-
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		align-items: center;
-		padding-right: 0;
-	}
 
 	.heart::before {
 
-		margin-left: 93%;
+		margin-left: 92%;
 	}
 
 	.flexrestau {
@@ -530,6 +522,7 @@
     /* flex-direction: row; */
     align-content: center;
     justify-content: center;
+	margin-left: 0;
 	}
 
 	.cardmain {
@@ -562,6 +555,11 @@
 @media screen and (max-width:992px) and (min-width: 774px){
 
 
+	.heart::before {
+
+		margin-left: 92%;
+	}
+
 	.explorer {
 
 		padding-bottom: 10%;
@@ -576,9 +574,18 @@
 
 	}
 
-	.restau h1 {
+	.fonctions li h2 {
 
-		padding-right: 0%;
+		right: 94%;
+	}
+
+	.color h1 {
+
+		margin-left: 0;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		display: flex;
 	}
 
 
