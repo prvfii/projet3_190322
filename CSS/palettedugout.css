@@ -28,7 +28,7 @@
 		font-size: larger;
 		text-align: left;
 		position:absolute;
-		top: 25px;
+		top: 20px;
 		left: 15px;
 	}
 	.back_img {
@@ -160,6 +160,15 @@
 		overflow: hidden;
 	}
 
+	.pricerow p {
+
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+
+
+	}
+
 	.textcol {
 
 		display: flex;
@@ -173,6 +182,12 @@
 		font-family: 'Roboto', sans-serif;
 
 		
+	}
+
+	.textcol h2 {
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
 	}
 
 	.check {
