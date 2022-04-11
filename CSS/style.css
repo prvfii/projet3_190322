@@ -287,13 +287,19 @@
 		flex-direction: column;
 		align-content: center;
 		align-items: center;
-		margin-top: 50px;
 		padding-bottom: 60px;
-		padding-top: 30px;
+		
 	}
 
-	.restau h1 {padding-right: 50%;
-		
+	.color h1 {
+
+		margin-left: 15px;
+    padding-top: 40px;
+	}
+
+	.color {
+
+		background-color: whitesmoke;
 	}
 	.flexrestau {
 		width: 95%;
@@ -510,11 +516,10 @@
 	.flexrestau {
 
 		display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: space-between;
-	justify-content: space-around;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: space-around;
 	}
 
 	.cardmain {
@@ -537,6 +542,7 @@
     align-items: center;
     text-align: center;
 	}
+
 
 
 
