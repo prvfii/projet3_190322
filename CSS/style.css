@@ -124,6 +124,8 @@
 		justify-content: center;
 		margin-bottom: 0;
 		background-color: gainsboro;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
 	}
 
 	
@@ -520,6 +522,14 @@
 		flex-wrap: wrap;
 		align-content: space-between;
 		justify-content: space-around;
+	}
+
+	.color h1 {
+
+		display: flex;
+    /* flex-direction: row; */
+    align-content: center;
+    justify-content: center;
 	}
 
 	.cardmain {
