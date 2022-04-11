@@ -292,8 +292,7 @@
 		padding-top: 30px;
 	}
 
-	.restau h1 {
-		padding-right: 65%;
+	.restau h1 {padding-right: 50%;
 		
 	}
 	.flexrestau {
@@ -559,6 +558,11 @@
 		align-items: center;
 		justify-content: center;
 
+	}
+
+	.restau h1 {
+
+		padding-right: 0%;
 	}
 
 

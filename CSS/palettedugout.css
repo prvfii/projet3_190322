@@ -101,6 +101,8 @@
 	}
 	.buttons p {
 		margin-top: 0;
+		font-family: 'Roboto', sans-serif;
+
 		
 	
 	}
@@ -168,6 +170,8 @@
 		white-space: nowrap;
 		overflow: hidden;
 		margin-left: 10px;
+		font-family: 'Roboto', sans-serif;
+
 		
 	}
 
