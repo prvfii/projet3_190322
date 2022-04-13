@@ -265,11 +265,6 @@
 		
 	}
 
-
-	.fonctionside h1 {
-
-		margin-left: 20px;
-	}
 	.fonctions li {
 		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 		margin-top: 20px;
@@ -494,13 +489,6 @@
 	}
 
 
-	.fonctions li h2 {
-
-		right: 94.5%;
-		
-
-	}
-
 
 	.heart::before {
 
@@ -545,6 +533,29 @@
     align-items: center;
     text-align: center;
 	}
+
+	.fonctions li h2 {
+
+		right: 74%;
+	}
+
+
+	.fonctions li {
+
+		width: 50%;
+		
+	}
+
+	.logofooter {
+
+		font-size: 20px;
+	}
+
+	.fonctions  {
+
+		margin-bottom: 50px;
+	}
+
 
 
 
@@ -601,7 +612,7 @@
 
 
 		}
-	
+
 		
 		
 	}
