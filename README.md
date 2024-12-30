@@ -1,4 +1,5 @@
 𝑶𝒉𝑴𝒚𝑭𝒐𝒐𝒅
+
 	Enhancing the dining experience with interactive menus!
 
 ________________________________________________________________________________________________
@@ -19,5 +20,3 @@ Technologies Used
 	•	HTML5: For page structure.
 	•	CSS3: For styling and animations.
 	•	Git/GitHub: For version control.
-
-![Uploading image.png…]()
